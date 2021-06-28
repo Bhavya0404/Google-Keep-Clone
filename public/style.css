@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #f2f3f486;;
+    background-color: #f2f3f486;
     font-family: 'McLaren', cursive;
 }
 
@@ -17,12 +17,15 @@ body {
 
 
 .footer {
-    color: #bbbbbb;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    margin-top:auto;
+    /* color: #bbbbbb; */
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: #bbbbbb;
+   background-color: #f2f3f486;
+   text-align: center;
+   padding-top: 10px;
 }
 
 

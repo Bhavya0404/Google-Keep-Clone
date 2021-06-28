@@ -22,9 +22,9 @@ function Input(props) {
   function handleClick(event) {
     props.onChecked(inputText);
     setInputText({
-        title: "",
-        content: ""
-     } );
+      title: "",
+      content: "",
+    });
     event.preventDefault();
   }
 
@@ -38,6 +38,7 @@ function Input(props) {
           placeholder="Title"
           value={inputText.title}
         />
+
         <textarea
           onChange={handleChange}
           name="content"
