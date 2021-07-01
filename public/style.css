@@ -5,6 +5,7 @@
 
 body {
     background-color: #f2f3f486;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     font-family: 'McLaren', cursive;
 }
 
@@ -49,7 +50,7 @@ body {
 
 .input {
     width: 480px;
-    height: 140px;
+    /* height: 140px; */
     background: white;
     padding: 13px;
     margin: 25px 0px 0px 35px;
@@ -75,7 +76,7 @@ body {
     padding: 5px 0 0 0px;
     margin: 5px 10px 0px 13px;
     width: 95%;
-    height: 80px;
+    /* height: 80px; */
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
     outline: none;
@@ -90,18 +91,19 @@ input::placeholder,.input textarea::placeholder{
 
 .input button {
     background-color: #fea82fd3;
-    padding: 13px;
+    /* padding: 0px; */
     border-radius: 50%;
     border: none;
     float: right;
     color: white;
-    margin-right: 10px;
+    margin-right: 13px;
     cursor: pointer;
 
 }
 
 #delete {
     color: #fea82fd3;
+    background-color: white;
     float: right;
     border: none;
     padding: 5px;
